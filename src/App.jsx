@@ -1,12 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import AramaCubugu from './components/AramaCubugu/AramaCubugu.jsx'
-import Gonderiler from './components/Gonderiler/Gonderiler.jsx'
-
-/* 
-ADIM 1: gerekli componentleri ve sahteVeri'yi import edin 
-*/
-
+import Gonderiler from './components/Gonderiler/Gonderilers.jsx'
 
 
 const App = () => {
