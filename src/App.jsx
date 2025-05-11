@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
+import AramaCubugu from './components/AramaCubugu/AramaCubugu.jsx'
+import Gonderiler from './components/Gonderiler/Gonderiler.jsx'
+
 /* 
 ADIM 1: gerekli componentleri ve sahteVeri'yi import edin 
 */
@@ -39,11 +42,9 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      {/*
-        ADIM 2: AramaCubugu ve Gonderiler component'ini ekleyin.
-        Önce bu comoponentleri inceleyin. Hangi proplara ihtiyacı var?
-        */}
+    <div className="App">      
+      <AramaCubugu aramaKriteri={aramaKriteri} aramaHandler={aramaHandler}/>
+      <Gonderiler gonderiyiBegen={gonderiyiBegen} gonderiler={gonderiler}/>
     </div>
   );
 };
