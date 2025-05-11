@@ -14,7 +14,7 @@ const Gonderiler = (props) => {
                   hangi propları göndermeliyiz */
      
        gonderiler.map( (post, index) => {
-        return <Gonderi gönderi={post} key={index} gonderiyiBegen={gonderiyiBegen}/>
+        return <Gonderi gonderi={post} key={index} gonderiyiBegen={gonderiyiBegen}/>
        })
                   
      }
