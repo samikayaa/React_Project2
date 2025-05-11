@@ -1,5 +1,6 @@
 import React from 'react';
 import './Yorumlar.css';
+import Yorum from './Yorum.jsx'
 /* ADIM 1: Yorum component'ini import edelim */
 
 
