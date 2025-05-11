@@ -23,7 +23,7 @@ const Gonderi = (props) => {
          src={gonderi.imageUrl}
        />
      </div>
-     <BegenBolumu begeniSayisi={gonderi.likes} />
+     <BegenBolumu begeniSayisi={gonderi.likes} gönderiId={gönderiId} />
      <Yorumlar yorumlar={gonderi.comments} />
    </div>
  );

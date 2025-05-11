@@ -3,13 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComment, faHeart } from '@fortawesome/free-regular-svg-icons';
 
 const BegenBolumu = (props) => {
-  const { gonderiyiBegen, begeniSayisi } = props;
+  const { gonderiyiBegen, begeniSayisi, gönderiId } = props;
   const [begenildiMi, setBenildiMi] = useState(false);
 
   const begeniHandler = () => {
     if (begenildiMi === false) {
       setBenildiMi(true);
-      gonderiyiBegen();
+      gonderiyiBegen(gönderiId);
     }
   };
 
