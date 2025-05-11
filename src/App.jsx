@@ -4,6 +4,8 @@ import './App.css';
 ADIM 1: gerekli componentleri ve sahteVeri'yi import edin 
 */
 
+
+
 const App = () => {
   const [gonderiler, setGonderiler] = useState(sahteVeri);
   const [aramaKriteri, setAramaKriteri] = useState('ali');
