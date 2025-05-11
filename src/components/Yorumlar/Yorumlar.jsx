@@ -6,8 +6,15 @@ import Yorum from './Yorum.jsx'
 
 const Yorumlar = (props) => {
  /* ADIM 2: yorumları parent component'den prop olarak alalım */
+  const {yorumlar} = props;
  return (
-   <div>{/* ADIM 3: her Yorum için Yorum component'ini çalıştıralım. */}</div>
+   <div>{
+    /* ADIM 3: her Yorum için Yorum component'ini çalıştıralım. */
+    yorumlar.map( (comment) => {
+      return <Yorum yorum={comment} key={comment.id}/>
+    })
+   }</div>
+
  );
 };
 
