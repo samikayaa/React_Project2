@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import AramaCubugu from './components/AramaCubugu/AramaCubugu.jsx'
-import Gonderiler from './components/Gonderiler/Gonderilers.jsx'
+import Gonderiler from './components/Gonderiler/Gonderiler.jsx'
+import sahteVeri from './sahteVeri.js'
 
 
 const App = () => {
