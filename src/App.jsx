@@ -5,6 +5,8 @@ import Gonderiler from './components/Gonderiler/Gonderiler.jsx'
 import sahteVeri from './sahteVeri.js'
 
 
+
+
 const App = () => {
   const [gonderiler, setGonderiler] = useState(sahteVeri);
   const [aramaKriteri, setAramaKriteri] = useState('ali');
